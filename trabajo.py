@@ -7,4 +7,7 @@ df_datos.rename(columns = {"Entity": "Entidad",
 "Code": "Identificador",
 "Year": "Año",
 "Deaths": "Muertes",
-"Sidness": "Lateralidad"})
+"Sidness": "Lateralidad"}, inplace =True)
+df_datos = df_datos.dropna()
+df_datos = df_datos.sort_values("Año", ascending=False)
+
