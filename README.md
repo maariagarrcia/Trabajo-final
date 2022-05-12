@@ -26,3 +26,7 @@ El motivo por el que hemos elegido este tema es que creemos importante concienci
 ## FASE 1:
 Este es el figma de la  fase 1
 https://www.figma.com/proto/tdUlObQZ2jRCbjouVwrEio/app-cars-(Community)?node-id=2%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A4&show-proto-sidebar=1
+
+## FASE 2
+
+## FASE 3
