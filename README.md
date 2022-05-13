@@ -224,7 +224,12 @@ print("La media anual de muertes es: ", media_muertes)
 
 ```
 Grárico sectores Muerte/ Año
-https://github.com/maariagarrcia/Trabajo-final/blob/main/diagrama-sectores.png
+
+![diagrama-sectores](https://user-images.githubusercontent.com/91721826/168242713-6b620b8a-2fe7-47c2-83ec-375e9a0129cf.png)
+
+Gráfico barras Muerte/Año
+![diagrama-barras-muertes-años](https://user-images.githubusercontent.com/91721826/168242822-8fac4410-aab9-4fd1-943b-dd106ff3e4b1.png)
+
 
 ## FASE 3
 https://pineapple-tide-breath.glitch.me/
