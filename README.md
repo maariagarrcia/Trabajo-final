@@ -234,3 +234,152 @@ Gráfico barras Muerte/Año
 
 ## FASE 3
 https://pineapple-tide-breath.glitch.me/
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="re-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Contacto </a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>MyA</h1>
+
+        <p>Viaja seguro</p>
+        <button class="btn btn-dark">Conoce Más</button>
+      </div>
+    </header>
+    <section>
+      <div class="row justify-content-center">
+        <div class="col-9 col-sm">
+          <div class="container mt-5 mb-5">
+            <div class="card" ç>
+              <img
+                src="https://cdn.glitch.global/c0947262-9e6d-4821-b14f-9d336da6cf5f/thumbnails%2Fdiagrama-barras-muertes-a%C3%B1os.png?1652400198893"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">¿Tranquildad al volante?</h5>
+                <p class="card-text">
+                  Las estadísticas no fallan y es innegable el peligro que
+                  corremos cada vez que salimos a la carretera.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-sm-6 col-lg-5 ">
+          <div class="container mt-5 mb-5">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.global/c0947262-9e6d-4821-b14f-9d336da6cf5f/thumbnails%2Fdiagrama-sectores.png?1652400815352"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">¿Por qué nosotros?</h5>
+                <p class="card-text">
+                  En MyA contamos con una amplia plantilla de analistas
+                  especializados que se encargan de estudiar cuál es el plan de
+                  seguro que más le conviene a cada prototipo de conductor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class ="row">
+          <div class="col-9 col-sm-6 col-lg-5 ">
+          <img src ="https://cdn.glitch.global/c0947262-9e6d-4821-b14f-9d336da6cf5f/IMG-7413.JPG?v=1652425233630"/>
+        </div>
+        <div class="col-9 col-sm-6 col-lg-5 ">
+          <p>
+          <h3>
+            Inicia tu viaje de la manera más segura
+          </h3>
+          </p>
+          <p>
+            Deje su correo electrónico y contactaremos con usted 
+          </p>
+          </div>
+          </div>
+        <form action="">
+          <label for="email">Correo electrónico:</label>
+
+          <div class="d-flex flex-file mr-2">
+            <div class="fore-group">
+             
+
+              <input type="email" id="email" class="fore-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+```
+
+```
+
+
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;}
+
+
+
+.cover{height: 400px;
+  color:orange;
+background-image:url(https://cdn.glitch.global/c0947262-9e6d-4821-b14f-9d336da6cf5f/imagen.jpg?v=1652398537432);
+background-size:cover;
+background-position: center;
+background-color:rgba(0,0,0,0.5);
+background-blend-mode:darken}
+
+.card {border: 0! important;
+box-shadow:0 4px 6 px -1px(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)}
+
