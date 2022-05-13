@@ -223,6 +223,8 @@ print(muertes_año)
 print("La media anual de muertes es: ", media_muertes)
 
 ```
+Grárico sectores Muerte/ Año
+https://github.com/maariagarrcia/Trabajo-final/blob/main/diagrama-sectores.png
 
 ## FASE 3
 https://pineapple-tide-breath.glitch.me/
